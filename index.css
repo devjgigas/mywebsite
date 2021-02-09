@@ -51,5 +51,38 @@ nav a:hover{
    color: white;
    font-size:20px;
    border-radius: 8px;
+   text-align: center;
+   padding:14px;
   
+}
+
+p{
+    color: rgba(0, 0, 0, 0.501);;
+}
+.animate__bounceInDown{
+    display: inline-block;
+    color:rgb(0, 169, 169);
+
+  animation: bounce; 
+  animation-duration: 2s; 
+}
+.animate__backInLeft{
+    display: block;
+    animation-duration:4s;
+}
+.about-container{
+    margin-left:10em;
+    font-size: 3em;
+    font-family: 'Comfortaa', cursive;
+    
+}
+.view-portfolio{
+    font-family: 'Comfortaa', cursive;
+    font-size:24px;
+   border: none;
+   background: rgb(0, 169, 169);
+   color: #fff;
+   padding: 15px;
+   border-radius: 14px;
+
 }
