@@ -103,11 +103,13 @@ p{
   
 }
 .project__img {
-    width: 100%;
+    width: 50%;
     height: 100%;
-    object-fit:contain;
-    margin:10px, 10px;
+    object-fit:fill;
+    margin-left:7em;
     border-radius:2px;
+    border: #00a9a9 10px solid;
+    padding:16px;
     
 }
 .gallery__item--1 {
