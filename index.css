@@ -1,13 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 :root{
-    --main-color:linear-gradient(to left top, #1397e0, #80ade9, #b6c5f0, #dfe1f7, #ffffff);
+    --main-color:#fff;
 
     
 }
 
   body{
-   background: var(--main-color);
+   background:#fff;
    background-repeat: no-repeat;
      width:100%;
      min-height:1000px;
@@ -33,7 +33,11 @@
     h1 span{
         color: rgba(231, 76, 159, 0.883);
     }
-    
+    .animate__rubberBand{
+        animation-duration: 2s;
+
+    }
+
   .navbar a{
       text-decoration: none;
       list-style-type: none;
@@ -46,6 +50,12 @@
      margin-left:20px;
      font-size:1.5em;
  
+  }
+  .navbar a:hover{
+    color:orange;
+  }
+  a:visited{
+   color: #5f2bece1;
   }
   .portfolio-pic{
       display: flex;
@@ -107,6 +117,42 @@
     animation-duration:1.0s;
 
 }
+.contact-container{
+    display:inline-flex;
+    width: 600px;
+    padding-top:90px;
+   
+    
+}
+form{
+    display:flex;
+    flex-direction: column;
+    margin-left:50%;
+    padding-left:10%;
+}
+
+label{
+    padding:15px 15px 0 0;
+    color:rgb(72, 71, 71);
+   
+}
+input, textarea{
+    width:650px;
+    border:rgba(231, 76, 159, 0.883) 1px solid;
+    height:2.8em;
+
+    
+}
+input[type=submit]{
+    margin-top:15px;
+    background: #0052ebe1;
+    text-shadow: 0.5px 1px gray;
+}
+ input[type=submit]:hover{
+    background:rgba(231, 76, 159, 0.883);
+    animation-duration: 2s;
+}
+
  
 @media(max-width: 600px) {
     body {

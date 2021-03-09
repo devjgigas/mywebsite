@@ -7,16 +7,32 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Jasmine's Portfolio</title>
+    
+   <script>
+  function play(){
+        var audio = document.querySelector("audio");
+        audio.play();
+  }
+
+
+                 
+   </script>
  
 </head>
 <body>
     <header>
-        <h1> Jasmine <span>Gigas</span></h1>
+        
+
+        <h1 class="animate__rubberBand"> Jasmine <span>Gigas</span></h1>
         <nav class="navbar">
             <ul>
                 <a href="index.html"><li>About</li></a>
                 <a href="portfolio.html"><li>Portfolio</li></a>
-                <a href="contact.html"><li>Contact</li></a>
+                <a href="contact.html" onmouseover="play()" ><li>Contact</li></a>
+                <audio id="phone">
+                    <source src="phoneSound.wav"/>
+                </audio>
+               
             </ul>
         </nav>
     </header>

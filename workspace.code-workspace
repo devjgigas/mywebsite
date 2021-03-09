@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "mywebsite",
+			"path": "."
+		},
+		{
+			"name": "phpCalculator2",
+			"path": "../../../../Applications/MAMP/htdocs/phpCalculator2"
+		},
+		{
+			"name": "jsPayCalculator",
+			"path": "../../../../Applications/MAMP/htdocs/jsPayCalculator"
+		},
+		{
+			"name": "phpCalculator",
+			"path": "../../../../Applications/MAMP/htdocs/phpCalculator"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mywebsite"
+	}
+}
