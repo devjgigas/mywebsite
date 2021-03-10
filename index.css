@@ -152,9 +152,11 @@ input[type=submit]{
     background:rgba(231, 76, 159, 0.883);
     animation-duration: 2s;
 }
-.image-container{
+#image-container{
     margin-top:0;
     padding-top: 0;
+   margin-left:8px; 
+    
 }
 
 .gallery img{
@@ -167,6 +169,7 @@ input[type=submit]{
 }
 .gallery{
     margin-left:10%;
+   
 }
 
 .text{
@@ -178,8 +181,17 @@ input[type=submit]{
 .portfolio-image{
     float:right;
     margin-top:0%;
-    margin-right:20%;
+    margin-right:25%;
     width:25%;
+  
+}
+.project-list{
+    padding:1px;
+   
+}
+.project-list li{
+    padding:4px;
+    list-style: none;
   
 }
 
